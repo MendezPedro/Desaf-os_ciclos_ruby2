@@ -1,12 +1,13 @@
 n = ARGV[0].to_i
+num = 0
+sum = ""
+(n+1).times do |i|
+    num += 1
+    print sum
+    sum +=num.to_s
+        
+    print "\n"
 
-n.times do |i|
-    if i % 2 == 0
-        print "1"
-        print "\n"
-    else
-        print "2"
-    end
+    
     
 end
-print "\n"
